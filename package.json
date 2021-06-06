@@ -1,0 +1,34 @@
+{
+    "name": "lireddit",
+    "version": "1.0.0",
+    "description": "Includes the follow technologies:  - React - TypeScript - GraphQL - URQL/Apollo - Node.js - PostgreSQL - MikroORM/TypeORM - Redis - Next.js - TypeGraphQL - Chakra",
+    "main": "index.js",
+    "scripts": {
+        "watch": "tsc --watch",
+        "start": "node dist/index.js",
+        "dev": "nodemon dist/index.js",
+        "dont-start": "ts-node src/index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/crispycrispycrispy/reddit_clone.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/crispycrispycrispy/reddit_clone/issues"
+    },
+    "homepage": "https://github.com/crispycrispycrispy/reddit_clone#readme",
+    "dependencies": {
+        "@mikro-orm/cli": "^4.5.5",
+        "@mikro-orm/core": "^4.5.5",
+        "@mikro-orm/migrations": "^4.5.5",
+        "@mikro-orm/postgresql": "^4.5.5",
+        "@types/node": "^15.6.2",
+        "nodemon": "^2.0.7",
+        "pg": "^8.6.0",
+        "ts-node": "^10.0.0",
+        "typescript": "^4.3.2"
+    }
+}
